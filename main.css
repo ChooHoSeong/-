@@ -1,0 +1,103 @@
+body{
+    padding: 50px;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/2106/Macos_Monterey_2021_Apple_WWDC_5K_Poster_1920x1080.jpg);background-size: cover;background-position: center;
+    overflow: hidden;
+}
+#copy{
+    margin: 5px;
+    color: white;
+    position: fixed;
+    right: 0;bottom:0;
+}
+div{
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+canvas{
+    background-color: white;
+    border-radius: 10px;
+}
+#base{
+    width: 1400px;
+    height: 900px;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top: 50%;left: 50%;
+}
+.item{
+    display:inline-block;
+    position: absolute;
+    margin: 10px;
+    height: 430px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#top{
+    width: 1380px;
+    top: 0;
+    left: 0;
+}
+#left{
+    width: 330px;
+    left: 0;bottom: 0;
+    overflow: visible;
+    cursor: pointer;
+}
+#left:active,#ch:active{
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+#ch{
+    width: 680px;
+    right: 0;bottom: 0;
+    cursor: pointer;
+}
+#ava{
+    width: 330px;
+    left: 350px;bottom: 0px;
+}
+#myChart{
+    padding: 10px;
+    margin-top: 40px;
+}
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.R_B{
+    border-right: 1px solid black;
+}
+.B_B{
+    border-bottom: 1px solid black;
+}
+input{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 30px;
+    border-radius: 20px;
+}
+input:hover{
+    background-color: #efefef;
+}
+#check{
+    bottom: 0;
+    height: 30px;
+    padding: 2px 8px 2px 8px;
+    border-radius: 4px;
+}
+#img{
+    margin-top: 70px;
+    font-size: 30px;
+}
+#rav{
+    border-top: 1px  solid black;
+}
